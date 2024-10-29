@@ -5,8 +5,8 @@
 
 
 ## 📖 Table of Contents
-1. [Introduction](#introduction)
-2. [Steps](#steps)
+1. [Introduction](##introduction)
+2. [Steps](##steps)
 
 ## 🛠️ Introduction
 In the world of coding, breaking down complex problems can be challenging. **DECODE-XD7** provides a structured approach to tackle these challenges systematically.
