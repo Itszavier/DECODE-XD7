@@ -32,3 +32,96 @@ In the world of coding, breaking down complex problems can be challenging. **DEC
 6. **E**valuate and Refine  
    Test against examples and optimize the solution for efficiency.
 
+
+## Python 🐍
+
+```python
+# 1. D: Define the Problem
+# Calculate the factorial of a given number.
+
+# 2. E: Explore Examples
+# Example: factorial(5) should return 120 (5 * 4 * 3 * 2 * 1)
+
+# 3. C: Conceptualize a Solution
+# Use recursion to calculate factorial.
+
+def factorial(n):
+    # 4. O: Organize the Plan
+    if n == 0 or n == 1:
+        return 1  # Base case
+    else:
+        return n * factorial(n - 1)  # Recursive case
+
+# 5. D: Develop and Code
+result = factorial(5)
+
+# 6. E: Evaluate and Refine
+print(f"The factorial of 5 is {result}.")  # Output: 120
+```
+## JavaScript 🌐
+
+```javascript
+// 1. D: Define the Problem
+// Calculate the factorial of a given number.
+
+// 2. E: Explore Examples
+// Example: factorial(5) should return 120 (5 * 4 * 3 * 2 * 1)
+
+// 3. C: Conceptualize a Solution
+// Use recursion to calculate factorial.
+
+function factorial(n) {
+    // 4. O: Organize the Plan
+    if (n === 0 || n === 1) {
+        return 1;  // Base case
+    } else {
+        return n * factorial(n - 1);  // Recursive case
+    }
+}
+
+// 5. D: Develop and Code
+const result = factorial(5);
+
+// 6. E: Evaluate and Refine
+console.log(`The factorial of 5 is ${result}.`);  // Output: 120
+```
+
+## C++ 🚀
+
+```cpp
+#include <iostream>
+using namespace std;
+
+// 1. D: Define the Problem
+// Calculate the factorial of a given number.
+
+// 2. E: Explore Examples
+// Example: factorial(5) should return 120 (5 * 4 * 3 * 2 * 1)
+
+// 3. C: Conceptualize a Solution
+// Use recursion to calculate factorial.
+
+int factorial(int n) {
+    // 4. O: Organize the Plan
+    if (n == 0 || n == 1) {
+        return 1;  // Base case
+    } else {
+        return n * factorial(n - 1);  // Recursive case
+    }
+}
+
+// 5. D: Develop and Code
+int main() {
+    int result = factorial(5);
+    
+    // 6. E: Evaluate and Refine
+    cout << "The factorial of 5 is " << result << endl;  // Output: 120
+    return 0;
+}
+```
+
+
+
+These examples demonstrate how to apply the **DECODE-XD7** framework in Python, JavaScript, and C++ for solving the factorial problem. Each step is annotated to clarify the thought process behind the solution.
+
+
